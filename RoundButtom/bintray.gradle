@@ -1,6 +1,6 @@
 apply plugin: 'com.novoda.bintray-release'
 //项目主页
-def siteUrl = 'https://github.com/scalling/AlbumPicture'
+def siteUrl = 'https://github.com/scalling/RoundButton'
 publish {
     repoName = 'maven'
     userOrg = 'zmcat'
