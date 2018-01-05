@@ -9,7 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/RoundButtom" />
-            <option value="$PROJECT_DIR$/roundbuttomsample" />
+            <option value="$PROJECT_DIR$/RoundButtomSample" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

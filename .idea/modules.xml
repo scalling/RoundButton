@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RoundButtom/RoundButtom.iml" filepath="$PROJECT_DIR$/RoundButtom/RoundButtom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RoundButtomSample/roundbuttomsample.iml" filepath="$PROJECT_DIR$/RoundButtomSample/roundbuttomsample.iml" />
       <module fileurl="file://$PROJECT_DIR$/RoundButton.iml" filepath="$PROJECT_DIR$/RoundButton.iml" />
       <module fileurl="file://F:\work\github\RoundButton\RoundButtomSample\app.iml" filepath="F:\work\github\RoundButton\RoundButtomSample\app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/roundbuttomsample/roundbuttomsample.iml" filepath="$PROJECT_DIR$/roundbuttomsample/roundbuttomsample.iml" />
     </modules>
   </component>
 </project>

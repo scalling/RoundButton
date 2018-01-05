@@ -1,21 +1,36 @@
-# RoundButton [![](https://jitpack.io/v/czy1121/roundbutton.svg)](https://jitpack.io/#czy1121/roundbutton)
- 
+##介绍
 可设置圆角背景边框的的按钮 
 
 通过调节色彩明度自动计算按下(pressed)状态颜色
 
 ![RoundButton](screenshot.png)
+## 引入
+* groovy
+```
+    repositories { 
+        maven { url "https://jitpack.io" }
+    } 
+```
 
+* Gradle 
+   
+   ```
+    compile 'com.github.scalling:roundbutton:1.0.0'
+   ```
+* Maven
+	
+	```
+    <dependency>
+      <groupId>com.github.scalling</groupId>
+      <artifactId>roundbutton</artifactId>
+      <version>1.0.0</version>
+      <type>pom</type>
+    </dependency>
+	
+	```
 ## Gradle
 
-``` groovy
-repositories { 
-    maven { url "https://jitpack.io" }
-} 
-dependencies {
-    compile 'com.github.scalling:roundbutton:1.1.0'
-}
-```
+
     
 ## Usage
     
@@ -62,7 +77,7 @@ dependencies {
 
 
 ## 具体用法请查看DEMO
->[MainActivity](https://github.com/scalling/AlbumPicture/blob/master/AlbumPicSample/src/main/java/com/zm/picture/sample/MainActivity.java)
+>[activity_main.xml](https://github.com/scalling/RoundButton/blob/master/roundbuttomsample/src/main/res/layout/activity_main.xml)
  
  ##混淆
  没有使用到：序列化、反序列化、JNI、反射，所以并不需要添加混淆过滤代码
