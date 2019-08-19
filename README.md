@@ -1,6 +1,6 @@
 ## 介绍
-可设置圆角背景边框的的按钮 
-
+可设置圆角背景边框的的按钮
+可设置圆角背景边框的的相对布局
 通过调节色彩明度自动计算按下(pressed)状态颜色
 
 ![RoundButton](screenshot.png)
@@ -37,6 +37,9 @@
 **XML**
 
 ``` xml
+
+RoundButton（TextView）
+
 <com.zm.rb.view.RoundButton
     style="@style/RoundButton"
     android:text="Text"
@@ -50,6 +53,22 @@
     app:btnCornerRadius="10dp"
     app:btnPressedRatio="1.5"
     app:btnStrokeColor="#3F51B5"/>
+    
+    
+    RoundRelative(RelativeLayout)
+    
+    
+    <com.zm.rb.view.RoundRelative
+        style="@style/RoundButton"
+        app:btnCornerRadius="10dp" 
+        app:btnSolidColor="#3F51B5"/>
+        
+    <com.zm.rb.view.RoundRelative
+        style="@style/RoundButton.Two"
+        android:textColor="#3F51B5"
+        app:btnCornerRadius="10dp"
+        app:btnPressedRatio="1.5"
+        app:btnStrokeColor="#3F51B5"/>
 ``` 
 
 **属性**

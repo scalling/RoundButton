@@ -5,7 +5,7 @@ publish {
     repoName = 'maven'
     userOrg = 'zmcat'
     groupId = 'com.github.scalling'
-    artifactId = 'roundbutton3'
+    artifactId = 'roundbutton'
     publishVersion = rootProject.ext.android["versionName"]
     desc = 'Rounded buttons'
     website = siteUrl
