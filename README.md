@@ -15,7 +15,7 @@
 * Gradle 
    
    ```
-    compile 'com.github.scalling:roundbutton:1.0.0'
+    compile 'com.github.scalling:roundbutton:1.0.1'
    ```
 * Maven
 	
